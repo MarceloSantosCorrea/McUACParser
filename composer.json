@@ -1,0 +1,28 @@
+{
+  "name": "marcelo-correa/mcuacparser",
+  "description": "Module 'ua-parser/uap-php' changed to Zend Framework 2",
+  "license": "BSD-3-Clause",
+  "type": "library",
+  "keywords": [
+    "parser",
+    "ua-parser",
+    "zf2",
+    "zend framework 2"
+  ],
+  "homepage": "https://github.com/MarceloSantosCorrea/McUACParser",
+  "authors": [
+    {
+      "name": "Marcelo Corrêa",
+      "email": "marcelocorrea229@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "ua-parser/uap-php": "^3.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "McUACParser": "src/"
+    }
+  }
+}
